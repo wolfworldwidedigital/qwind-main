@@ -6,6 +6,7 @@ const coverImage =
 
 export default component$(() => {
   return (
+    
     <section class="relative md:-mt-[76px] not-prose">
       <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
@@ -14,8 +15,8 @@ export default component$(() => {
           <div class="basis-1/2 text-center lg:text-left pb-10 md:pb-16 mx-auto">
             <h1 class="text-5xl md:text-6xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200">
               Automate your customer questions<br class="hidden lg:block" />{" "}
-              <span class="hidden lg:inline">with </span> <span class="text-[#039de1]">Qwik</span> +{" "}
-              <span class="sm:whitespace-nowrap text-[#039de1]">AI-Assist</span>
+              <span class="hidden lg:inline">with </span> <span class="text-[#039de1]">AI-Assist</span> +{" "}
+              <span class="sm:whitespace-nowrap text-[#039de1]">GPT-4 Turbo</span>
             </h1>
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <p class="text-xl text-muted mb-6 dark:text-slate-300">
@@ -34,11 +35,11 @@ export default component$(() => {
                 <div class="flex w-full sm:w-auto">
                   <a
                     class="btn btn-primary sm:mb-0 w-full"
-                    href="https://github.com/onwidget/AI-Assist"
+                    href="/live-demo"
                     target="_blank"
                     rel="noopener"
                   >
-                    Get Live Denmo
+                    Get Live Demo
                   </a>
                 </div>
                 <div class="flex w-full sm:w-auto">

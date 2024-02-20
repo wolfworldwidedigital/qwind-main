@@ -2,7 +2,11 @@ import type { RegisteredComponent } from "@builder.io/sdk-qwik";
 import CallToAction from "./widgets/CallToAction";
 import Counter from "./counter/counter";
 import Header from "./widgets/Header";
+import Hero from "./widgets/Hero";
+import Logo from "./common/Logo";
+import { MyComponent } from "./FooterZever";
 import { RouterHead } from "./common/RouterHead";
+import Stats from "./widgets/Stats";
 
 /**
  * This array is used to integrate custom components within Builder.
@@ -34,7 +38,23 @@ export const CUSTOM_COMPONENTS: RegisteredComponent[] = [
     name: "Header",
   },
   {
+    component: Hero,
+    name: "Hero",
+  },
+  {
+    component: Logo,
+    name: "Logo",
+  },
+  {
+    component: MyComponent,
+    name: "MyComponent",
+  },
+  {
     component: RouterHead,
     name: "RouterHead",
+  },
+  {
+    component: Stats,
+    name: "Stats",
   },
 ];
